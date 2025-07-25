@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // Your backend URL
+  baseURL: "https://spm-f7xy.onrender.com/api", // Your backend URL
 });
 
 // Add JWT token to every request if available
